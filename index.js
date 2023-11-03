@@ -2,7 +2,7 @@
 
 const select = document.querySelectorAll(".Currency");
 const btn = document. getElementById("btn");
-const num = document.getElementById("num");
+const num = document.getElementById("numbers");
 const answer = document.getElementById("answer");
 
 
@@ -14,10 +14,10 @@ fetch("https://api.frankfurter.app/currencies")
 
 function display(data) {
   const entries = Object.entries(data);
-  entries.forEach((entry) => {
-    select[0].innerHTML += `<option value="${entry[0]}">${entry[0]}</option>`;
-    select[1].innerHTML += `<option value="${entry[0]}">${entry[0]}</option>`;
-  });
+  for (let i = 0; i < entries.length; i++){
+    select[0].innerHTML += `<option value="${entries[i][0]}">${entries[i][0]}</option>`;
+    select[1].innerHTML += `<option value="${entries[i][0]}">${entries[i][0]}</option>`;
+  }
 }
 
 btn.addEventListener("click", () => {
@@ -26,11 +26,27 @@ btn.addEventListener("click", () => {
     let value = num.value;
 
     if(firstCurrency != secondCurrency) {
-        exchange(firstCurrency, secondCurrency, value);
+        convert(firstCurrency, secondCurrency, value);
     } else {
-        alert("Currencies cannot be the same, please change");
+        alert("Currencies cannot same, please change one");
     }
-    });
+});
+
+    function convert(firstCurrency, secondCurrency, value) {
+        const api = "https://api.frankfurter.app/currencies";
+        
+        fetch(`https://${api}/latest?amount=${value}&from=${firstCurrency}&to=&${secondCurrency}`
+        )
+            .then ((val) => val.json())
+            .then((val) => {
+                console.log(Object.values
+                (val.rates)[0]);
+                answer.value = Object.values
+                (val.rates)[0];
+            });
+
+    }
+    
     
 
 
