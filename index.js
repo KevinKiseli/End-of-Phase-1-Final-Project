@@ -20,3 +20,19 @@ function display(data) {
   });
 }
 
+btn.addEventListener("click", () => {
+    let firstCurrency = select[0].value;
+    let secondCurrency = select[0].value;
+    let value = num.value;
+
+    if(firstCurrency != secondCurrency) {
+        exchange(firstCurrency, secondCurrency, value);
+    } else {
+        alert("Currencies cannot be the same, please change");
+    }
+    });
+
+
+
+
+  
