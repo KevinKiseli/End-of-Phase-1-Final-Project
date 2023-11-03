@@ -32,7 +32,7 @@ btn.addEventListener("click", () => {
     }
     });
     
-function
+
 
 
 
