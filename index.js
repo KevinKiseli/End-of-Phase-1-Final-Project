@@ -31,6 +31,8 @@ btn.addEventListener("click", () => {
         alert("Currencies cannot be the same, please change");
     }
     });
+    
+function
 
 
 
