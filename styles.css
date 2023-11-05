@@ -1,15 +1,12 @@
-.Holder {
+.container {
     text-align: center;
     margin: 20px;
   }
   
-  .container {
+  .box {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
-  }
-  
-  .box {
     display: flex;
     flex-direction: column;
     align-items: center;
