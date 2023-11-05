@@ -1,4 +1,4 @@
-Currency Converter:
+End of Phase 1 Project (Currency Converter) :- C.R.E.A.M:
 
 This is a simple currency converter that uses the Frankfurter API to fetch and display currency conversion rates. Users can select two currencies and an amount to convert, and the converted value will be displayed.
 
@@ -39,3 +39,4 @@ Kevin Kiseli
 Github link:
 https://github.com/KevinKiseli/End-of-Phase-1-Final-Project
 
+This project is open source and welcomes contributions.

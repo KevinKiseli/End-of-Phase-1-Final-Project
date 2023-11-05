@@ -31,6 +31,11 @@ btn.addEventListener("click", () => {
   let secondCurrency = select[1].value;
   let value = num.value;
 
+btn.addEventListener("mouseover", () => {
+    console.log("Mouse is hovering over the button")
+
+})
+
   // Checking if the selected currencies are not the same and calling the selected currencies values
   if (firstCurrency != secondCurrency) {
      convert(firstCurrency, secondCurrency, value);
@@ -52,3 +57,13 @@ function convert(firstCurrency, secondCurrency, value) {
       ans.value = Object.values(val.rates)[0];
     });
 }  
+
+select.forEach((element) => {
+    element.addEventListener("change", () => {
+      console.log("Value changed");
+    });
+  });
+  
+  num.addEventListener("input", () => {
+    console.log("Input value changed!");
+});
