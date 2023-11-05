@@ -7,7 +7,6 @@ const ans = document.getElementById("ans");
 const btn = document.getElementById("btn");
 
 
-
 // Fetching and displaying the list of currencies from the API
 fetch("https://api.frankfurter.app/currencies")
   .then((data) => data.json())
@@ -33,7 +32,6 @@ btn.addEventListener("click", () => {
 
 btn.addEventListener("mouseover", () => {
     console.log("Mouse is hovering over the button")
-
 })
 
   // Checking if the selected currencies are not the same and calling the selected currencies values
