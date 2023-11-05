@@ -1,0 +1,160 @@
+{
+    "currencies": [
+      {
+        "currencyName": "US Dollar",
+        "currencyCode": "USD",
+        "rate": 1.0
+      },
+      {
+        "currencyName": "Euro",
+        "currencyCode": "EUR",
+        "rate": 0.93
+      },
+      {
+        "currencyName": "British Pound",
+        "currencyCode": "GBP",
+        "rate": 0.81
+      },
+      {
+        "currencyName": "Japanese Yen",
+        "currencyCode": "JPY",
+        "rate": 149.38
+      },
+      {
+        "currencyName": "Australian Dollar",
+        "currencyCode": "AUD",
+        "rate": 1.54
+      },
+      {
+        "currencyName": "Canadian Dollar",
+        "currencyCode": "CAD",
+        "rate": 1.37
+      },
+      {
+        "currencyName": "Bulgarian Lev",
+        "currencyCode": "BGN",
+        "rate": 1.83
+      },
+      {
+        "currencyName": "Brazilian Real",
+        "currencyCode": "BRL",
+        "rate": 4.90
+      },
+      {
+        "currencyName": "Swiss Franc",
+        "currencyCode": "CHF",
+        "rate": 0.90
+      },
+      {
+        "currencyName": "Chinese Renminbi Yuan",
+        "currencyCode": "CNY",
+        "rate": 7.31
+      },
+      {
+        "currencyName": "Czech Koruna",
+        "currencyCode": "CZK",
+        "rate": 22.81
+      },
+      {
+        "currencyName": "Danish Krone",
+        "currencyCode": "DKK",
+        "rate": 6.98
+      },
+      {
+        "currencyName": "Hong Kong Dollar",
+        "currencyCode": "HKD",
+        "rate": 7.82
+      },
+      {
+        "currencyName": "Hungarian Forint",
+        "currencyCode": "HUF",
+        "rate": 355.43
+      },
+      {
+        "currencyName": "Indonesia Rupiah",
+        "currencyCode": "IDR",
+        "rate": 15664
+      },
+      {
+        "currencyName": "Israeli New Shegel",
+        "currencyCode": "ILS",
+        "rate": 3.97
+      },
+      {
+        "currencyName": "Indian Rupee",
+        "currencyCode": "INR",
+        "rate": 83.21
+      },
+      {
+        "currencyName": "Icelandic Króna",
+        "currencyCode": "ISK",
+        "rate": 139.32
+      },
+      {
+        "currencyName": "South Korean Won",
+        "currencyCode": "KRW",
+        "rate": 1310.43
+      },
+      {
+        "currencyName": "Mexican Peso",
+        "currencyCode": "MXN",
+        "rate": 17.36
+      },
+      {
+        "currencyName": "Malaysian Ringgit",
+        "currencyCode": "MYR",
+        "rate": 4.73
+      },
+      {
+        "currencyName": "Norwegian Krone",
+        "currencyCode": "NOK",
+        "rate": 11.08
+      },
+      {
+        "currencyName": "New Zealand Dollar",
+        "currencyCode": "NZD",
+        "rate": 1.67
+      },
+      {
+        "currencyName": "Philippine Peso",
+        "currencyCode": "PHP",
+        "rate": 56.08
+      },
+      {
+        "currencyName": "Polish Złoty",
+        "currencyCode": "PLN",
+        "rate": 4.16
+      },
+      {
+        "currencyName": "Romanian Leu",
+        "currencyCode": "RON",
+        "rate": 4.64
+      },
+      {
+        "currencyName": "Swedish Krona",
+        "currencyCode": "SEK",
+        "rate": 10.97
+      },
+      {
+        "currencyName": "Singapore Dollar",
+        "currencyCode": "SGD",
+        "rate": 1.36
+      },
+      {
+        "currencyName": "Thai Baht",
+        "currencyCode": "THB",
+        "rate": 35.56
+      },
+      {
+        "currencyName": "Turkish Lira",
+        "currencyCode": "TRY",
+        "rate": 28.41
+      },
+      {
+        "currencyName": "South African Rand",
+        "currencyCode": "ZAR",
+        "rate": 18.34
+      }
+    ]
+  }
+  
